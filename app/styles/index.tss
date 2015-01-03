@@ -1,0 +1,62 @@
+".container": {
+	backgroundColor:"white"
+}
+
+".menu": {
+	backgroundColor:"blue",
+	bottom: "0px",
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	layout: "horizontal"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+"#label": {
+	font: {
+		fontSize: 12
+	}
+}
+
+"#risk": {
+  	// Set content to anything but the default Ti.UI.FILL
+  	// For example a absolute (dp) or relative (%) value
+  	// Or again, set to adjust to it's content (the text)
+  	width: Ti.UI.SIZE,
+  	height: Ti.UI.SIZE,
+	
+  	// Set the padding values like so:
+  	top: "10dp", right: "10dp", bottom: "10dp", left: "10dp",
+  	
+	color: "#FFF"
+}
+
+"#rx": {
+  	// Set content to anything but the default Ti.UI.FILL
+  	// For example a absolute (dp) or relative (%) value
+  	// Or again, set to adjust to it's content (the text)
+  	width: Ti.UI.SIZE,
+  	height: Ti.UI.SIZE,
+	
+  	// Set the padding values like so:
+  	top: "10dp", right: "10dp", bottom: "10dp", left: "10dp",
+  	
+	color: "#FFF"
+}
+
+"#ref": {
+  	// Set content to anything but the default Ti.UI.FILL
+  	// For example a absolute (dp) or relative (%) value
+  	// Or again, set to adjust to it's content (the text)
+  	width: Ti.UI.SIZE,
+  	height: Ti.UI.SIZE,
+	
+  	// Set the padding values like so:
+  	top: "10dp", right: "10dp", bottom: "10dp", left: "10dp",
+  	
+	color: "#FFF"
+}

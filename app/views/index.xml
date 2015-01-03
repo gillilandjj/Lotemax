@@ -1,0 +1,10 @@
+<Alloy>
+	<Window class="container">
+		<Label id="label" onClick="doClick">Hi h8rz...</Label>
+		<View class="menu">
+			<Label id="risk" onClick="doClickRisk">IMPORTANT RISK INFORMATION</Label>
+			<Label id="rx" onClick="doClickRx">PRESCRIBING INFORMATION</Label>
+			<Label id="ref" onClick="doClickRef">REFERENCES</Label>
+		</View>
+	</Window>
+</Alloy>
