@@ -1,0 +1,9 @@
+".container" : {
+  width: "80%",
+  height: "80%",
+  backgroundColor: "blue"
+}
+
+"#btn_cont": {
+	bottom: "10px"
+}

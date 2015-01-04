@@ -3,7 +3,10 @@ function doClick(e) {
 }
 
 function doClickRisk(e) {
-	alert("Risk");
+
+	$.index.add(indications.getView());
+	indications.getView().bottom = -1000;
+    indications.getView().animate({bottom:"10%", duration:500});
 }
 
 function doClickRx(e) {
@@ -15,3 +18,7 @@ function doClickRef(e) {
 }
 
 $.index.open();
+
+var indications = Alloy.createController('indications', {
+	parent: $.index
+});
