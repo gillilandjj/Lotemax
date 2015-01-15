@@ -4,16 +4,16 @@ function doClick(e) {
 
 function doClickRisk(e) {
 
-	$.index.add(indications.getView());
-	indications.getView().bottom = -1000;
-    indications.getView().animate({bottom:"10%", duration:500});
+	$.index.add($.indications.getView());
+	$.indications.getView().bottom = -1000;
+  $.indications.getView().animate({bottom:"10%", duration:500});
 }
 
 function doClickRx(e) {
 	
-	$.index.add(rxinfo.getView());
-	rxinfo.getView().bottom = -1000;
-    rxinfo.getView().animate({bottom:"10%", duration:500});
+	$.index.add($.rxinfo.getView());
+	$.rxinfo.getView().bottom = -1000;
+  $.rxinfo.getView().animate({bottom:"10%", duration:500});
 }
 
 function doClickRef(e) {
@@ -21,11 +21,3 @@ function doClickRef(e) {
 }
 
 $.index.open();
-
-var indications = Alloy.createController('indications', {
-	parent: $.index
-});
-
-var rxinfo = Alloy.createController('rxinfo', {
-	parent: $.index
-});

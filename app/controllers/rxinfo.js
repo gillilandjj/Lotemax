@@ -5,8 +5,5 @@ function removeRxInfo(e) {
 
 function removeView(e) {
 	
-	parent.remove($.rxinfo);
+	$.rxinfo.getParent().remove($.rxinfo);
 }
-
-var args = arguments[0] || {};
-var parent = args.parent;

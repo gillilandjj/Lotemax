@@ -5,8 +5,5 @@ function removeIndications(e) {
 
 function removeView(e) {
 	
-	parent.remove($.indications);
+	$.indications.getParent().remove($.indications);
 }
-
-var args = arguments[0] || {};
-var parent = args.parent;

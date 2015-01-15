@@ -8,4 +8,5 @@
 		</View>
 	</Window>
 	<Require src="indications" id="indications"/>
+	<Require src="rxinfo" id="rxinfo"/>
 </Alloy>
