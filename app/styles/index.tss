@@ -2,6 +2,27 @@
 	backgroundColor:"white"
 }
 
+".main_button_row": {
+	backgroundColor:"red",
+	top: "200px",
+	width: "100%",
+	height: Titanium.UI.SIZE,
+	layout: "horizontal",
+	horizontalWrap: false
+}
+
+".main_button_view": {
+	backgroundColor:"yellow",
+	width: "20%",
+  	height: Titanium.UI.SIZE,
+}
+
+".main_button": {
+  	width: "150px",
+  	height: "75px",
+	backgroundColor: "green"
+}
+
 ".menu": {
 	backgroundColor:"blue",
 	bottom: "0px",
@@ -57,6 +78,21 @@
 	
   	// Set the padding values like so:
   	top: "10dp", right: "10dp", bottom: "10dp", left: "10dp",
+  	
+	color: "#FFF"
+}
+
+"#home": {
+  	// Set content to anything but the default Ti.UI.FILL
+  	// For example a absolute (dp) or relative (%) value
+  	// Or again, set to adjust to it's content (the text)
+  	width: Ti.UI.FILL,
+  	height: Ti.UI.SIZE,
+	
+  	// Set the padding values like so:
+  	top: "10dp", right: "10dp", bottom: "10dp", left: "10dp",
+  	
+  	textAlign: "right",
   	
 	color: "#FFF"
 }

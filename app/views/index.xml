@@ -1,12 +1,19 @@
 <Alloy>
 	<Window class="container">
-		<Label id="label" onClick="doClick">Hi h8rz...</Label>
+		<View class="main_button_row">
+			<View class="main_button_view"><Button class="main_button" onClick="doClickInflammation">Inflammation</Button></View>
+			<View class="main_button_view"><Button class="main_button" onClick="doClickDose">Dose</Button></View>
+			<View class="main_button_view"><Button class="main_button" onClick="doClickViscosity">Viscosity</Button></View>
+			<View class="main_button_view"><Button class="main_button" onClick="doClickFormulation">Formulation</Button></View>
+			<View class="main_button_view"><Button class="main_button" onClick="doClickVideos">Videos</Button></View>
+		</View>
 		<View class="menu">
 			<Label id="risk" onClick="doClickRisk">IMPORTANT RISK INFORMATION</Label>
 			<Label id="rx" onClick="doClickRx">PRESCRIBING INFORMATION</Label>
 			<Label id="ref" onClick="doClickRef">REFERENCES</Label>
+			<Label id="home" onClick="doClickHome">BAUSH + LOMB</Label>
 		</View>
 	</Window>
-	<Require src="indications" id="indications"/>
-	<Require src="rxinfo" id="rxinfo"/>
+	<Require src="indications"/>
+	<Require src="rxinfo"/>
 </Alloy>

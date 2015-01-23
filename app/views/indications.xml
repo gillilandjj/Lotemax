@@ -1,5 +1,5 @@
 <Alloy>
-	<View class="container">
+	<View class="container" className="overview" name="indications">
 		<Label>[INDICATIONS AND USAGE]</Label>
 		<Button id="btn_cont" onClick="removeIndications">Continue</Button>
 	</View>

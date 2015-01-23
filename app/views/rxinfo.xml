@@ -1,5 +1,5 @@
 <Alloy>
-	<View class="container" onClick="removeRxInfo">
+	<View class="container" className="overview" onClick="removeRxInfo" name="rxInfo">
 		<Label>[FULL PRESCRIBING INFORMATION]</Label>
 	</View>
 </Alloy>
